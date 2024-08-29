@@ -118,7 +118,11 @@ input[type="file"] {
 }
 
 .card a {
-  color: #4bc69b;
+  color: #4bc69b;  
+}
+
+.card p:has(a) {
+  word-wrap: break-word;
 }
 
 .card a:visited {
